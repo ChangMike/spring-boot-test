@@ -1,6 +1,6 @@
-package com.spring.boot.mybatis.mappers;
+package com.spring.boot.pagehelper.mappers;
 
-import com.spring.boot.mybatis.entities.Person;
+import com.spring.boot.pagehelper.entities.Person;
 import java.util.List;
 
 public interface PersonMapper {
@@ -13,4 +13,6 @@ public interface PersonMapper {
     List<Person> selectAll();
 
     int updateByPrimaryKey(Person record);
+
+    List<Person> selectAllForPageHelper();
 }

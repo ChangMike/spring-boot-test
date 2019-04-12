@@ -18,7 +18,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.spring.boot.mybatis.entities" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.spring.boot.pagehelper.entities" targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
@@ -27,7 +27,7 @@
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
         <!--接口配置-->
-        <javaClientGenerator targetPackage="com.spring.boot.mybatis.mappers" type="XMLMAPPER" targetProject="src/main/java">
+        <javaClientGenerator targetPackage="com.spring.boot.pagehelper.mappers" type="XMLMAPPER" targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!--所有表的配置是 %，单个表的配置表名-->

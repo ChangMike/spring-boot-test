@@ -1,7 +1,6 @@
-package com.spring.boot.mybatis.entities;
+package com.spring.boot.pagehelper.entities;
 
 public class Person {
-
     private Integer id;
 
     private String name;
